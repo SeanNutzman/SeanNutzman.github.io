@@ -19,7 +19,7 @@
     // Initializes iframe
     myIframe.src = spreadsheetUrl + sheetIds[currentSheet];
 
-    // Updates iframe very 10,000 milliseconds
+    // Updates iframe very 20,000 milliseconds
     setInterval(function() {
         // Increases sheet
         currentSheet++;
@@ -30,6 +30,6 @@
 
         // Updates iframe
         myIframe.src = spreadsheetUrl + sheetIds[currentSheet];
-    }, 10000);
+    }, 20000);
 </script>
 </html>
